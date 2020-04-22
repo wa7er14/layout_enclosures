@@ -12,19 +12,20 @@ body {
   margin-top: 40px;
 }
 
-#qa-block {
+.wrap-block_nomt {
   margin: 0;
 }
 
-.middle-block {
-  box-sizing: border-box;
+.middle-block,
+.content-block {
   padding: 10px;
-  background-color: #ffa500;
   border: 1px solid red;
+}
+
+.middle-block {
+  background-color: #ffa500;
 }
 
 .content-block {
   background-color: #fff;
-  padding: 10px;
-  border: 1px solid red;
 }
